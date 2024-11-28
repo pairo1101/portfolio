@@ -23,7 +23,7 @@ import { computed } from 'vue';
         setup(){
         const route = useRoute();
 
-        const loggedInRoute = computed(() => route.path === '/portfolio');
+        const loggedInRoute = computed(() => route.path === '/portfolio'); /* Check login */
         return {loggedInRoute};
       }
         

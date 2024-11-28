@@ -1,10 +1,10 @@
 <template>
   <div class="showcase-container">
     <div class="card" 
-         v-for="(card, index) in cards" 
+         v-for="(card, index) in cards"  
          :key="index" 
          :style="{ animationDelay: `${index * 0.3}s` }"
-    >
+    > <!--loops the card data for the number of index-->
       <div 
         class="card-inner" 
         :class="{'flipped': card.isFlipped}" 
@@ -34,7 +34,7 @@
 export default {
   data() {
     return {
-      cards: [
+      cards: [ /* Data that the cards will use in a loop*/
         {
           title: "Petbook",
           image: "../../logo-icons.png",

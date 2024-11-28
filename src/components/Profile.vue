@@ -90,13 +90,13 @@ body {
 }
 
 .d-flex {
-  gap: 2rem; /* Add spacing between cards */
+  gap: 2rem; /* Add spacing  */
 }
 
 /* Card styling */
 .card {
   border: none;
-  border-radius: 8px; /* Rounded corners for a modern look */
+  border-radius: 8px; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 

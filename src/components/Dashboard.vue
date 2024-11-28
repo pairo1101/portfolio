@@ -1,7 +1,7 @@
 <template>
   <div class="container py-5">
     <div class="row justify-content-center">
-      <!-- Link Square 1 (Top Row) -->
+      <!-- Link Profile -->
       <div class="col-md-4 mb-4">
         <router-link to="/portfolio/profile" class="no-underline">
           <div class="card link-square text-center shadow">
@@ -12,7 +12,7 @@
         </router-link>
       </div>
 
-      <!-- Link Square 2 (Top Row) -->
+      <!-- Link Showcase -->
       <div class="col-md-4 mb-4">
         <router-link to="/portfolio/showcase" class="no-underline">
           <div class="card link-square text-center shadow">
@@ -25,7 +25,7 @@
     </div>
 
     <div class="row justify-content-center">
-      <!-- Link Square 3 (Bottom Row) -->
+      <!-- Link Creative -->
       <div class="col-md-4 mb-4">
         <router-link to="/portfolio/creative" class="no-underline">
           <div class="card link-square text-center shadow">
@@ -36,7 +36,7 @@
         </router-link>
       </div>
 
-      <!-- Link Square 4 (Bottom Row) -->
+      <!-- Link Contact-->
       <div class="col-md-4 mb-4">
         <router-link to="/portfolio/contact" class="no-underline">
           <div class="card link-square text-center shadow">
